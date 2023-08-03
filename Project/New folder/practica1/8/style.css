@@ -1,0 +1,21 @@
+.rasm1{
+    filter: blur(5px);
+}
+.rasm2{
+    filter: brightness(3);
+}
+.rasm3{
+    filter: contrast(4);
+}
+.rasm4{
+    
+}
+.rasm5{
+    filter: invert(20%);
+}
+.rasm6{
+    filter: opacity(30%);
+}
+.rasm7{
+    filter: ;
+}

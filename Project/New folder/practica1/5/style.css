@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./foodimg.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+header{
+    background-color: #fff;
+    height: 75px;
+    margin-top: 15px;
+}
+.nav__right>h2 {
+  float: right;
+   margin-top: 30px;
+   margin-left: 100px;
+}
+h3{
+    margin-top: 20px;
+    margin-left: 50px;
+    float: right;
+    padding: 5px;
+    /* text-decoration: none; */
+    /* color: black; */
+}
+h1{
+    font-size: 60px;
+}
+.bir{
+    font-size: 25px;
+}
+.rang{
+    background-color: rgb(37, 201, 37);
+    width: 160px;
+    height: 160px;
+    margin-top: 40px;
+    margin-left: ;
+    border-radius: 50%;
+    text-align: center;
+}
+.section{
+    /* border: 1px solid red; */
+    width: 52%;
+    height: 600px;
+    margin-left: 200px;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+.men{
+    text-decoration: none;
+    color: aqua;
+}
+.freepik{
+    color: #fff;
+}
+.ikki {
+    color: #fff;
+}
+.biz{
+    color: #fff;
+}
+button{
+    background-color: rgb(84, 59, 14);
+    width: 150px;
+    height: 40px;
+    border: 2px solid rgb(82, 56, 8);
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: bolder;
+    
+}
+button:hover{
+    background-color: #fff;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.yangi{
+    background: #fff;
+    text-align: center;
+    color:rgb(5, 5, 56);
+    text-shadow: 12px 2px 8px rgb(5, 5, 53);
+}
+.container{
+    width: 100%;
+    background-color: aqua;
+}
+.wrap__card{
+  color: blue;  
+  border: 1px solid blue;
+  width: 240px;
+  text-align: center;
+  background-color: rgb(150, 202, 73);
+  width: 20%;
+  
+  display: inline-block;
+  height: 360px;
+  margin-top: 100px;
+  margin-left: 55px;
+}
+img{
+    width: 100%;
+    height: 240px;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 100px;
+}

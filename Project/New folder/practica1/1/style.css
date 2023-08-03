@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: gray;
+}
+header{
+    /* border: 3px solid black; */
+    font-size: 45px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+header>h2{
+    background-color: #fff;
+}
+section{
+    width: 49%;
+    float: left;
+    /* border-bottom: 5px solid black; */
+}
+section >h3{
+    font-size: 30px;
+    text-align: left;
+    padding: 120px 70px;
+    /* border: 3px solid black; */
+}
+section>img{
+    padding:  40px 30px;
+}
+button{
+    font-size: 40px;
+    width: 400px;
+    margin-left: 200px;
+    background:wheat;
+    color: black;
+    border: 3px solid black; 
+}
+.men{
+    font-size: 40px;
+    width: 400px;
+    margin-left: 950px;
+    background:wheat;
+    color: black;
+    border: 3px solid black; 
+}
+div{
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: black;
+    
+}
+h1{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 70px;
+
+}
+.men{
+    margin-top: 80px;
+    text-align: center;
+}
+P{
+    text-align: center;
+    font-size: 24PX;
+}
+
+div>img{
+    float: left;
+    width: 25%;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 125px;
+    margin-bottom: 150px;
+   
+}
+ /* .birinchi{
+    background-image: width:500px(./rasm5.jpg);
+ 
+  background-repeat: no-repeat;
+  padding: 15px;
+  background-size: 2550px;
+}  */

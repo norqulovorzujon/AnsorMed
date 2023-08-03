@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* opacity: 90%; */
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(0.6);
+    /* z-index: 3; */
+
+}
+
+header {
+    max-width: 1538px;
+    margin: auto;
+    padding: 1%;
+    /* border: 2px solid red; */
+    /* position: relative;
+    top: -800px; */
+    position: sticky;
+    top: 0;
+    /* top: 300px; */
+    background-color: #fff;
+    /* box-shadow: 0 2px 0 2px rgba(128, 128, 128, 0.684); */
+    /* text-shadow: 10px 4px 4px 8px gray; */
+    z-index: 5;
+}
+
+header h1 {
+
+
+
+    /* border: 2px soli red; */
+    margin-left: 150px;
+    opacity: 60%;
+    color: black;
+    cursor: pointer;
+}
+
+header h1:hover {
+    transition: 3s;
+
+}
+
+/* body{
+    opacity: 30%;
+    background-image: url(./bgimage.jpg);
+    width: 100vw;
+    height: 100vh; 
+    filter: brightness(0.1);  
+} */
+.wrap {
+    width: 100%;
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.h1 {
+    /* width: 100px;
+        height: 100px;
+        background-color: red; */
+    /* position: relative;
+        animation-name: example;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; */
+
+
+    filter: blur(0.5);
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -650px;
+    font-size: 80px;
+    cursor: pointer;
+
+}
+
+/* @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  } */
+.h1:hover {
+    color: red;
+    transition: 2s;
+}
+
+.card {
+    width: 15%;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -600px;
+    z-index: 3;
+}
+
+p {
+    line-height: 27px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: rgba(255, 255, 0, 0.736);
+    border: none;
+    padding: 13px;
+    border-radius: 25px;
+    font-weight: bolder;
+    width: 170px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    transition: 2s;
+    background-color: orangered;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* footer{
+    background-color:aqua;
+    opacity: 80%;
+    width: 100%;
+    max-width: 1538px;
+    margin: auto;
+    height: 300px;
+    position: relative;
+    top: -400px;
+} */

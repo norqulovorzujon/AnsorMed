@@ -1,0 +1,14 @@
+
+*{
+    margin: 0%;
+}
+
+button{
+    background-color: aqua;
+    color: white;
+    transition-duration: 0.2s;
+    width: 100px;
+}
+.text{
+    color: red;
+}

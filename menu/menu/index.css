@@ -1,0 +1,670 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* background-color: gray; */
+}
+header{
+    width: 100%;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.907);
+    background-color: #fff;
+}
+nav{
+    background-color: #fff;
+    max-width: 1108px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 12px;
+}
+.nav__left{
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: wrap;
+}
+.nav__left ul img{
+    /* background-color: #fff; */
+    margin-left: 0px;
+    margin-right:50px;
+}
+.nav__right{
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: wrap;
+}
+ul{
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+    
+}
+ ul li{
+    /* background-color: #fff; */
+    justify-content: space-between;
+    list-style: none;
+   
+}
+ul li a{
+    /* background-color: #fff; */
+    text-decoration: none;
+    color: #9E9AA8;
+}
+.nav__right ul{
+    gap: 3rem;
+}
+.nav__right .btn{
+    margin: 0px 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0, 255, 255, 0.804);
+}
+.secret {
+    background-color: none;
+    border: none;
+    color: black;
+    display: none;
+    margin-right: 10vw;
+}
+.text{
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 70px;
+    background-color: black;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+}
+.text {
+    /* flex-direction: column; */
+    opacity: 0;
+
+}
+.secret:focus+.text  {
+    opacity:1;
+    pointer-events: all;
+}
+.secret1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    position: absolute;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 2px solid gray;
+    padding: 20px;
+    background-color:  #3A3054;
+    display: none;
+    /* position: relative;
+    top: 20%; */
+    width: 90%;
+    align-items: center;
+    margin-top: 510px;
+    margin-right: 95%;
+    border-radius:  25px;
+    
+} 
+hr{
+    width: 300px;
+    opacity: 80%;
+}
+.secret1 li a{
+    color:white;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.secret{
+    position: absolute;
+
+}
+
+@media only screen and (max-width:630px){
+    .nav__left .res,
+    .nav__right .res{
+        display: none;
+    }   
+    .img{
+        display: flex;
+    }
+    .secret  {
+        display: flex;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+    } 
+    .secret:focus + .secret1{
+        display: flex;
+       
+        /* margin-top: 78%;
+        margin-right:20%; */
+        box-shadow: 0 0 8px gray;
+        border: none;
+    }
+    .btn{
+        transition: all;
+        cursor: pointer;
+        box-shadow: 0px 0px 8px gray;
+        width: 90%;
+        font-size: 27px;
+        
+    }
+}
+/*header qismi tugadi*/
+.section{
+    width: 100%;
+    background-color: #fff;
+}
+section{
+    width: 100%;
+    max-width: 1108px;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #fff;
+}
+.card__left{
+    background-color: #fff;
+    width: 30%;
+    margin-left: 2%;
+
+}
+.card__right img{
+    width: 100%;
+}
+.card__left h2{
+    background-color: #fff;
+    font-size: 60px;
+    width: 500px;
+    opacity: 80%;
+}
+.card__left p{
+    background-color: #fff;
+    font-size: 18px;
+    opacity: 80%;
+    line-height: 25px;
+}
+.card__left button{
+    width: 100px;
+    margin-top: 20px;
+    /* margin: 0px 20px; */
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0, 255, 255, 0.804);
+}
+.card__rigth{
+    background-color: #fff;
+    width: 40%;
+
+}
+.yashirin{
+    display: none;
+}
+
+@media only screen and (max-width:1005px){
+    section {
+        max-width:1005px ;
+        margin: auto;
+    }
+    .card__left {
+        width: 30%;
+    }
+    .card__left h2{
+        width: 300px;
+        font-size: 40px;
+    }
+    .card__rigth{
+        width: 30%;
+    }
+    .card__rigth img{
+        width: 200px;
+    }
+}
+@media only screen and (max-width:892px){
+    section{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .card__left{
+        width: 80%;
+        
+    }
+    .card__left h2{
+        width: 60%;
+        font-size: 60px;
+        text-align: center;
+        margin-left:18%;
+    }
+    .card__left p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .card__left button{
+        position: relative;
+        left: 33%;
+    }
+    .card__rigth img{
+        width: 50%;
+    }
+  
+}
+/* section qismi tugadi */
+form{
+    max-width: 1108px ;
+    margin: auto;
+    width: 60%;
+    padding: 37px;
+    /* border: 2px solid red; */
+    background-color: #3A3054 ;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+form input{
+    width: 72%;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    
+}
+form button{
+    width: 20%;
+    /* margin-top: 20px; */
+    /* margin: 0px 20px; */
+    padding: 15px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 255, 255, 0.804); 
+    margin-left: 60px;
+}
+.form2{
+    max-width: 1108px ;
+    margin: auto;
+    width: 900px;
+    padding: 20px;
+    /* border: 2px solid red; */
+    background-color:rgba(128, 128, 128, 0.667);
+    /* box-shadow: 0 0 px gray; */
+    border-radius: 10px;
+    margin-top: 40px;
+    display: none;
+}
+.form2 a{
+    margin-left: 330px;
+}
+.form2 button{
+    width: 130px;
+    /* margin-top: 20px; */
+    /* margin: 0px 20px; */
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 255, 255, 0.804); 
+    margin-left: 20px;
+}
+form button:active + .form2{
+    display: block;
+}
+.haq {
+    display: none;
+}
+@media only screen and (max-width:1456px){
+    form input{
+        width:50%;
+        padding: 10%;
+    }
+    form button {
+        width: 100px;
+    }
+}
+@media only screen and (max-width:1108px){
+    form input{
+        width:100%;
+        padding: 3%;
+    }
+    form button {
+        width: 100%;
+        padding: 3%;
+        margin-top: 2%;
+        position: relative;
+        right: 60px;
+        
+    }
+}
+/* .form qismi tugadi */
+
+.container{
+    width: 100%;
+    max-width: 1108px;
+    margin: auto;
+    /* border: 4px solid red; */
+    height: 700px;
+    
+}
+.container .wrapper {
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.container .wrapper div {
+    /* border: 2px solid aqua; */
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 8px gray;
+    /* border-radius: 15px; */
+    cursor: pointer;
+}
+.container .wrapper div:hover{
+    background-color: #a85d5d88;
+    
+}
+.container .wrapper div img{
+    background-color: #3A3054;
+    border-radius: 50%;
+    width: 35%;
+    position: relative;
+    top: -27%;
+}
+.container .wrapper div p{
+    margin-top: 3%;
+    line-height: 24px;
+    font-size: 19px;
+    opacity: 80%;
+}
+.container h1{
+    max-width: 1108px;
+    margin: auto;
+    width: 30%;
+    font-size: 30px;
+}
+.container .bir{
+    max-width: 1108px;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    font-size: 19px;
+    margin-right: 39%;
+    margin-top: 2%;
+    margin-bottom: 9%;
+}
+.container .wrapper .card2{
+    position: relative;
+    top: 60px;
+}
+.container .wrapper .card3{
+    position: relative;
+    top: 120px;
+}
+@media only screen and (max-width:810px){
+    .container .wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .container h1{
+        max-width: 810px;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .container .bir{
+        max-width: 810px;
+        margin: auto;
+        width: 80%;
+        margin-bottom: -50px;
+    }
+    .container .wrapper div{
+        /* position: relative;
+        left: 270px; */
+        max-width: 810px;
+        margin: auto;
+        width: 60%;
+        text-align: center;
+        line-height: 25px;
+        
+    }
+    .container .wrapper .card2{
+        position: relative;
+        top: 205px;
+    }
+    .container .wrapper .card1{
+        position: relative;
+        top: 300px;
+    }
+    .container .wrapper div img {
+        position: relative;
+        top: -50px;
+    }
+}
+/* .card qismi tugadi */
+.footer__top{
+    /* display: flex; */
+    width: 100%;
+     
+    max-width: 1500px;
+    margin: auto;
+    height: 250px;
+   background-color: #3A3054;
+    
+}
+.footer__top h1{
+    text-align: center;
+    margin: 30%;
+    margin: auto;
+    position: relative;
+    top: 27%;
+    color: #fff;
+    font-size: 45px;
+}
+.footer__top button{
+    width: 15%;
+    margin: 0px 20px;
+    padding: 15px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0, 255, 255, 0.804);
+    margin-left: 620px;
+    position: relative;
+    top: 35%;
+}
+footer{
+    background-color: #232127;
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    
+    height: 310px;
+    flex-wrap: wrap;
+}
+.footer_left{
+    
+    margin-top:30px ;
+    margin-left: 40px;
+}
+.footer_left h1{
+   color: #fff;
+   font-size: 40px;
+}
+.footer_rigth{
+    display: flex;
+    justify-content: space-between;
+}
+.card h3{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.card p{
+    font-size: 18px;
+    font-weight: 10px;
+}
+.card{
+    color: #fff;
+    margin-top: 30px;
+    position: relative;
+    left:  200px;
+    margin-left: 80px;
+}
+.card p:hover{
+    color:aqua;
+}
+
+.footer_top .footer_rigth .fa-brands,
+.footer_top .footer_rigth .fa-solid
+{
+    color: #fff;
+    font-size: 27px;
+    margin-left: 30px;
+    position: relative;
+    left: 320px;
+    top: 50px;
+}
+.fa-brands:hover{
+    color: aqua;
+    
+}
+ @media only screen and (max-width:810px){
+    /* .container{
+        display: none;
+
+    } */
+    .footer__top{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

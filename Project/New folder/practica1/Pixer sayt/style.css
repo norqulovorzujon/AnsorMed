@@ -1,0 +1,408 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* #header qismi boshlandi */
+header {
+    width: 1500px;
+    height: 56px;
+    /* border: 3px solid black; */
+    box-shadow: 0 0 8px rgba(131, 129, 129, 0.819);
+    position: sticky;
+}
+header> nav {
+    max-width: 1500px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+/* header> nav> .nav__left {
+    border: 2px solid red;
+} */
+header> nav> .nav__left> img {
+    margin-left: 50px;
+    width: 58.10753631591797px;
+    height: 20.002460479736328px;
+    top: -0.000457763671875px;
+    
+}
+header> nav> .nav__right {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+header> nav> .nav__right> ul {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 90px;
+    
+}
+header> nav> .nav__right> ul> li {
+    list-style: none;
+}
+header> nav> .nav__right> ul> li> a {
+    text-decoration: none;
+    /* background: #000000; */
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+header> nav> .nav__right> ul> button {
+    border: none;
+    background-color: #00BAFC;
+    color: white;
+    width: Hug (159px);
+    height: Hug (40px);
+    top: 8px;
+    left:1041px;
+    padding:8px 16px 8px 16px;
+    border-radius:5px;
+}
+header> nav> .nav__right> .iconka {
+    display:none;
+    font-size: 24px;
+    margin-right: 60px;
+}
+/* #header responsiv qismi */
+@media only screen and (max-width:1125px){
+    header> nav> .nav__right> ul {
+        display: none;
+    }
+    header> nav> .nav__right> .iconka {
+        display: flex;
+    }
+}
+@media only screen and (max-width:755px){
+    header> nav> .nav_left> img {
+        margin-left: 50px;
+    }
+}
+/* #header responsiv tugadi */
+/* #header qismi tugadi */
+
+/* #section qismi */
+section {
+    width:1500px;
+    /* border: 2px solid red; */
+}
+section> .wrapper {
+    max-width: 1500px ;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section> .wrapper> .wrap__text {
+    width: 40%;
+    padding:60px;
+    /* border: 2px solid blue; */
+    margin: 30%;
+    margin: auto;
+    line-height:150%;
+    width: Hug (470px);
+    height: Hug (224px);
+    top: 97px;
+    left: -200px;
+    gap: 16px;
+}
+section> .wrapper> .wrap__text> h1 {
+    width: 470px;
+    height: 78px;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+section> .wrapper> .wrap__text> p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+}
+section> .wrapper> .wrap__text> button {
+    width: 200px;
+    /* height: 24px; */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #00BAFC;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+section> .wrapper> .wrap__rasm {
+    width: 45%;
+    padding:60px;
+    /* border: 2px solid rgb(28, 28, 172); */
+}
+section> .wrapper> .wrap__rasm> img {
+    width: 508px;
+    height: 308px;
+    top: 80px;
+    left: 742px;
+    border-radius: 5px;
+
+}
+/* #section responsiv qismi */
+@media only screen and (max-width:455px){
+    section> .wrapper> .wrap__text{
+        width: 100%;
+        text-align: center;
+    }
+    section> .wrapper> .wrap__text> p {
+        text-align: center;
+    }
+}
+@media only screen and (max-width:455px){
+    section> .wrapper> .wrap__rasm{
+        width: 100%;
+        text-align: center;
+    }
+}
+/* #section responsiv qismi tugadi */
+/* #section qismi tugadi */
+
+/* #container qismi  */
+.container {
+    width: 1500px;
+}
+.container> .wrapper__card {
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: none;
+    text-align: center;
+    
+    /* font-size: 30px; */
+}
+/* .rasm1{
+    height: 230px;
+} */
+.container> .wrapper__card> .card {
+    width: 400px;
+    padding: 30px;
+    /* border: 3px solid red; */
+    height: 350px;
+    /* border: 2px solid rgba(128, 128, 128, 0.722); */
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.726);
+}
+.container> .wrapper__card> .card> img {
+    width: 100%;
+    padding: 10%;
+}
+.container>  button {
+    width: 200px;
+    /* height: 24px; */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #00BAFC;
+    border: none;
+    color: white;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 43.5%;
+    
+    
+}
+/*  #cotainer responsiv qismi*/
+@media only screen and (max-width:455px){
+    .container> .wrapper__card {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+
+    }   
+    .container> .wrapper__card> .card {
+        align-items: center;
+        width:201vw;
+        height: auto;
+        padding: 30px;
+        /* border: 3px solid gray; */
+        margin: 50px;
+ 
+     }  
+     .container> .wrapper__card> .card> img  {
+        
+        width:200vw;
+        height: auto;
+        padding: 30px;
+ 
+     }   
+
+}
+/* #container responsiv qismi tugadi*/
+/* #container qismi tugadi */
+
+/* #img and text qismi*/
+.wrapper__text__and__img> {
+   width: 100vw;
+   margin-left: 30%;
+}
+.wrapper__text__and__img> h2 {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+.wrapper__text__and__img> p {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+    line-height: 27px;
+}
+.wrapper__text__and__img> .wrapper__and {
+    max-width: 1500px;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3%;
+   
+}
+.wrapper__text__and__img> .wrapper__and> .card__rasm {
+    /* border: 2px solid black; */
+}
+.wrapper__text__and__img> .wrapper__and> .card__text {
+    /* border: 3px solid blue; */
+    line-height: 27px;
+}
+.wrapper__text__and__img> .wrapper__and> .card__rasm> img {
+    height: 20vw;
+}
+
+.wrapper__text__and__img> .wrapper__and2 {
+    max-width: 1500px;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.wrapper__text__and__img> .wrapper__and2> .card__text2 {
+    /* border: 3px solid blue; */
+    line-height: 27px;
+}
+.wrapper__text__and__img> .wrapper__and2> .card__rasm2 {
+    /* border: 2px solid black; */
+}
+.wrapper__text__and__img> .wrapper__and2> .card__rasm2> img {
+    width: 300px;
+    height: 20vw;
+}
+.wrapper__text__and__img> button{
+    width: 200px;
+    /* height: 24px; */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #00BAFC;
+    border: none;
+    color: white;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 43.5%;
+}
+/* responsiv qismi */
+@media only screen and (max-width:455px){
+    .wrapper__text__and__img> .wrapper__and2> {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .wrapper__text__and__img> .wrapper__and2> .card__text2{
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

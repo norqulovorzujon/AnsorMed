@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+div{
+    animation-duration: 2s;
+    transition: all;
+    /* transform: rotate(130deg);
+    transition-duration: inherit;
+    animation-timing-function: inherit;
+    animation-iteration-count: infinite;
+    animation-name: myAnime; */
+
+}
+@keyframes myAnime{
+    0%{
+        
+    }
+}
+.katta_1{
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: none;
+     transition-duration: inherit;
+    animation-timing-function: inherit;
+    animation-iteration-count: infinite;
+    animation-name: myAnime;
+}
+.katta_2{
+    background-color:red;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 47px;
+    left: 47px;
+     transition-duration: inherit;
+    animation-timing-function: inherit;
+    animation-iteration-count: infinite;
+    animation-name: weAnime;
+    
+}
+.katta_3{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    /* border-radius: 50%; */
+    border: none;
+    position: absolute;
+    top: 97px;
+    left: 97px;
+     transition-duration: inherit;
+    animation-timing-function: inherit;
+    animation-iteration-count: infinite;
+    animation-name: youAnime;
+}
+.katta_4{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+    border: none;
+     position: absolute;
+    top: 145px;
+    left: 145px;
+     transition-duration: inherit;
+    animation-timing-function: inherit;
+    animation-iteration-count: infinite;
+    animation-name: IAnime;
+}
+.katta_5{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%; */
+    border: none;
+     position: absolute;
+    top: 170px;
+    left: 170px;
+     transition-duration: inherit;
+    animation-timing-function: inherit;
+    animation-iteration-count: infinite;
+    animation-name: menAnime;
+}

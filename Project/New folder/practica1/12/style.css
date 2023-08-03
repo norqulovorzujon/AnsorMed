@@ -1,0 +1,88 @@
+html{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+img{
+    border-radius: 50%;
+    /* position: relative;
+    left:570px; */
+    max-width: 400px;
+    margin-top: 60px;
+    margin-left: 560px;
+    height: 40vh;
+}
+span a i {
+    font-size: 100px;
+    position: relative;
+    left: -24vw;
+    top: 5vh;
+    letter-spacing: 5px;
+}
+h1{
+    /* position: relative; */
+    max-width: 40vw;
+    margin: auto;
+    margin-top: 12vh;
+    text-align: center;
+    /* width: 40vw; */
+}
+p{
+   /* position: relative; */
+   max-width: 40vw;
+   margin: auto;
+   margin-top: 1vh;
+   text-align: center;
+   /* width: 40vw; */   
+}
+button{
+    /* outline: none; */
+    padding:10px;
+    margin-top: 25px;
+    margin-left: 670px;
+    background-color:orangered;
+    border-radius: 8px;
+    border: none;
+}
+
+.span{
+    text-align: center;
+}
+.card{
+    width: 100vw;
+}
+.wrap{
+    width: 15%;
+    display: inline-block;
+    margin-left: 10%;
+    position: relative;
+    left: 80px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px gray;
+    margin-top: 40px;
+}
+.wrap i{
+    /* margin-top: 40px; */
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    left: 70px;
+    bottom: 35px;
+    color: rgb(104, 47, 56);
+}
+.bosh__joy{
+    margin-top: 5vh;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(208, 189, 165);
+}
+
+
+
+
+
+
